@@ -1,0 +1,81 @@
+.header {
+  height: 20em;
+  background-image: url('../../assets/img/1.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-color: #bfeecc;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+}
+.texto-banner {
+  color: #002b02;
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  font-size: 2em;
+  font-weight: 300;
+  font-family: 'Acme', sans-serif;
+  text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5,
+    -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5,
+    -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5,
+    -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5;
+}
+.logo-banner {
+  position: absolute;
+  top: -150px;
+  right: calc(50% - 150px);
+}
+.ficha {
+  width: 30.3%;
+  border-radius: 4px;
+  background-color: #eeeded;
+  position: relative;
+  float: left;
+  margin: 1%;
+  border: 1px #eeeded;
+  border-style: solid;
+  border-width: 5px;
+  background: #eeeeee;
+  box-shadow: 0 10px 10px -6px lightblue;
+}
+.ficha img {
+  width: 100%;
+  border-radius: 4px;
+  max-height: 470px;
+}
+.ficha h2 {
+  text-align: center;
+  font-family: 'Carter One', cursive;
+}
+.ficha h3 {
+  text-align: center;
+  color: salmon;
+  font-family: 'Carter One', cursive;
+}
+.ficha p {
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  min-height: 130px;
+  padding: 5px;
+}
+.productps {
+  position: relative;
+  float: left;
+}
+.footer {
+  height: 3em;
+  line-height: 3em;
+  background-color: #b97029;
+  color: #000000;
+  text-align: center;
+  font-weight: 900;
+  position: relative;
+  float: left;
+  width: 100%;
+  background: #eee;
+  box-shadow: 0 10px 10px -6px lightblue;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
